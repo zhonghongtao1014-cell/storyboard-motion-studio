@@ -1,0 +1,12 @@
+{
+  "name": "storyboard-motion-studio",
+  "version": "2.0.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/core.test.mjs tests/gif.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
